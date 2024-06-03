@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+.title{
+  color: #171717;
+  font-size: 38px;
+  line-height: 52px;
+}
+.desck{
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  height: auto;
+
+}
+.colum-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  border-top: 5px solid grey;
+  border-radius:5px;
+  gap: 10px;
+}
+.colum-wrapper__title{
+  color: #171717;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0;
+}
+.create-card{
+  height: 30px;
+  border: none;
+  border-radius:5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 280px;
+  border-radius:5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  gap: 10px;
+}
+.card__title{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  border: none;
+  border-radius:5px;
+  max-width: 260px;
+  min-width: 260px;
+  max-height: 100px;
+}
+.card__info{
+  display: flex;
+  gap: 10px;
+}
+.avatar{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #91a596;
+  color: azure;
+  font-size: 10px;
+}
+.delete{
+  margin-left: auto;
+  border: 1px solid gray;
+  border-radius:5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.to-do{
+  background-color: #59B4D1;
+}
+.in-progress{
+  background-color: #D0935A;
+}
+.reviev{
+  background-color: #945AD1;
+}
+.done{
+  background-color: #59D090;
+}
